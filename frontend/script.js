@@ -1,7 +1,7 @@
 const user = JSON.parse(localStorage.getItem('user'));
 if (!user) window.location.href = 'index.html';
 
-const socket = io('http://localhost:5000');
+const socket = io('https://lets-chat-9dy1.onrender.com');
 
 let chats = [];
 let currentChat = null;
