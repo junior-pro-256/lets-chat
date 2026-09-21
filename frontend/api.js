@@ -1,4 +1,4 @@
-const API_URL = 'https://lets-chat-9dy1.onrender.com';
+const API_URL = 'https://lets-chat-9dy1.onrender.com/api';
 
 async function apiRequest(endpoint, method = 'GET', body = null, isFormData = false) {
   const token = localStorage.getItem('token');
